@@ -28,7 +28,7 @@
 - [汉语 (Chinese)](https://github.com/stephentian/33-js-concepts) — Re Tian
 - [Português do Brasil (Brazilian Portuguese)](https://github.com/tiagoboeing/33-js-concepts) — Tiago Boeing
 - [한국어 (Korean)](https://github.com/yjs03057/33-js-concepts.git) — Suin Lee
-- [한국어 (Korean)](https://github.com/yonggeun/33-js-concepts-in-korean) — yonggeun(현재 저장소)
+- [한국어 (Korean)](https://github.com/yonggeun/33-js-concepts-in-korean) — yonggeun`(현재 저장소)`
 - [Español (Spanish)](https://github.com/adonismendozaperez/33-js-conceptos) — Adonis Mendoza
 - [Türkçe (Turkish)](https://github.com/ilker0/33-js-concepts) — İlker Demir
 - [русский язык (Russian)](https://github.com/gumennii/33-js-concepts) — Mihail Gumennii
@@ -69,7 +69,7 @@
 ---
 ## <img  align= center width=50px height=50px src="https://media4.giphy.com/media/3hoLIVAJYkz6T0Ichp/giphy.gif?cid=6c09b952m4j3poopinf91rquev6qy4e8avu0bflq1e0vh4gp&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s"> <a id="table-of-contents">목차</a>
 
-1. **[콜 스택](#1-콜-스택)** 번역 중
+1. **[콜 스택](#1-콜-스택)** `번역 중`
 2. **[Primitive Types](#2-primitive-types)**
 3. **[Value Types and Reference Types](#3-value-types-and-reference-types)**
 4. **[Implicit, Explicit, Nominal, Structuring and Duck Typing](#4-implicit-explicit-nominal-structuring-and-duck-typing)**
@@ -115,7 +115,7 @@
 
 |한국어|영어|
 |---|---|
-|자바스크립트 콜 스택과 이벤트 루프의 이해 - 가우라브 판드비아|[Understanding Javascript Call Stack, Event Loops — Gaurav Pandvia](https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec)|
+|[자바스크립트 콜 스택과 이벤트 루프의 이해 - 가우라브 판드비아](/01%20call%20stack/01-자바스크립트%20콜%20스택과%20이벤트%20루프의%20이해%20-%20가우라브%20판드비아.md)|[Understanding Javascript Call Stack, Event Loops — Gaurav Pandvia](https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec)|
 |자바스크립트 콜 스택 이해하기 - 찰스 프리본|[Understanding the JavaScript Call Stack — Charles Freeborn](https://medium.freecodecamp.org/understanding-the-javascript-call-stack-861e41ae61d4)|
 |자바스크립트: 실행 콘텍스트란? 콜 스택이란? - 발렌티노 개그리아르디|[Javascript: What Is The Execution Context? What Is The Call Stack? — Valentino Gagliardi](https://medium.com/@valentinog/javascript-what-is-the-execution-context-what-is-the-call-stack-bd23c78f10d1)|
 |JS 이벤트 루프와 콜 스택이란 무엇일까? - 제스 텔포드|[What is the JS Event Loop and Call Stack? — Jess Telford](https://gist.github.com/jesstelford/9a35d20a2aa044df8bf241e00d7bc2d0)|
