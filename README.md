@@ -3,7 +3,7 @@
   <a href="https://github.com/yonggeun/33-js-concepts-in-korean"><img src="assets/images/logo.png" alt="자바스크립트 개발자가 알아야 할 개념 33개" width=200" /></a>
   <br>
     <br>
-  자바스크립트 개발자가 알아야 할 개념 33개
+  자바스크립트 개발자가 알아야 할 개념 33가지
   <br><br>
 </h1>
 
@@ -115,7 +115,7 @@
 
 |한국어|영어|
 |---|---|
-|[자바스크립트 콜 스택과 이벤트 루프의 이해 - 가우라브 판드비아](/01%20call%20stack/01-자바스크립트%20콜%20스택과%20이벤트%20루프의%20이해%20-%20가우라브%20판드비아.md)|[Understanding Javascript Call Stack, Event Loops — Gaurav Pandvia](https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec)|
+|[자바스크립트 콜 스택과 이벤트 루프의 이해 - 가우라브 판드비아](/33-js-concepts-in-korean/01%20call%20stack/01-자바스크립트%20콜%20스택과%20이벤트%20루프의%20이해%20-%20가우라브%20판드비아.md)|[Understanding Javascript Call Stack, Event Loops — Gaurav Pandvia](https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec)|
 |자바스크립트 콜 스택 이해하기 - 찰스 프리본|[Understanding the JavaScript Call Stack — Charles Freeborn](https://medium.freecodecamp.org/understanding-the-javascript-call-stack-861e41ae61d4)|
 |자바스크립트: 실행 콘텍스트란? 콜 스택이란? - 발렌티노 개그리아르디|[Javascript: What Is The Execution Context? What Is The Call Stack? — Valentino Gagliardi](https://medium.com/@valentinog/javascript-what-is-the-execution-context-what-is-the-call-stack-bd23c78f10d1)|
 |JS 이벤트 루프와 콜 스택이란 무엇일까? - 제스 텔포드|[What is the JS Event Loop and Call Stack? — Jess Telford](https://gist.github.com/jesstelford/9a35d20a2aa044df8bf241e00d7bc2d0)|
