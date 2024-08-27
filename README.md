@@ -1,29 +1,34 @@
 <h1 align="center">
 <br>
-  <a href="https://github.com/leonardomso/33"><img src="https://i.imgur.com/dsHmk6H.jpg" alt="33 Concepts Every JS Developer Should Know" width=200" /></a>
+  <a href="https://github.com/yonggeun/33-js-concepts-in-korean"><img src="assets/images/logo.png" alt="자바스크립트 개발자가 알아야 할 개념 33개" width=200" /></a>
   <br>
     <br>
-  33 Concepts Every JavaScript Developer Should Know
+  자바스크립트 개발자가 알아야 할 개념 33개
   <br><br>
 </h1>
 
-## Introduction 
+> **저장소 안내**
+> 이 저장소는 Leonardo Maldonado가 엮은 <[33 Concepts Every JavaScript Developer Should Know](https://github.com/leonardomso/33-js-concepts)>를 한국어로 번역해 공유합니다.
+> 쉽고 빠른 이해에 중점을 두고 번역했으며 필요할 경우 역자가 별도로 주석을 달았습니다.
+> 아래는 모두 원 저장소(https://github.com/leonardomso/33-js-concepts)에서 필요한 내용을 간추려 번역한 내용입니다.
+> 동영상은 번역 대상이 아니나 참조를 위해 목록에 남겨 둡니다.
 
-This repository was created with the intention of helping developers master their concepts in JavaScript. It is not a requirement, but a guide for future studies. It is based on an article written by Stephen Curtis and you can read it [here](https://medium.com/@stephenthecurt/33-fundamentals-every-javascript-developer-should-know-13dd720a90d1).
+## 소개
 
-**🚀 Considered by GitHub as one of the [top open source projects of 2018!](https://blog.github.com/2018-12-13-new-open-source-projects/)**
+이 저장소를 만든 계기는 자바스크립트의 여러 개념을 숙달하고자 하는 개발자를 돕기 위해서입니다. 필수사항은 아니지만 언젠가 공부할 내용의 안내서입니다. 스테픈 커티스(Stephen Curtis)가 작성한 글을 바탕으로 했으며 [여기서](https://medium.com/@stephenthecurt/33-fundamentals-every-javascript-developer-should-know-13dd720a90d1) 읽을 수 있습니다.
 
-## Community
+**🚀 깃허브에서 [2018년 최고의 오픈 소스 프로젝트](https://blog.github.com/2018-12-13-new-open-source-projects/) 가운데 하나로 선정했습니다.**
 
-Feel free to submit a PR by adding a link to your own recaps or reviews. If you want to translate the repo into your native language, please feel free to do so.
+## 커뮤니티
 
-All the translations for this repo will be listed below:
+요약이나 검토를 직접 작성해 링크와 함께 풀 리퀘스트(pull request)를 주셔도 됩니다. 여러분의 모국어로 이 저장소를 번역해도 무방합니다. 번역한 목록은 모두 아래에 기재합니다.
 
 - [اَلْعَرَبِيَّةُ‎ (Arabic)](https://github.com/amrsekilly/33-js-concepts) — Amr Elsekilly
 - [Български (Bulgarian)](https://github.com/thewebmasterp/33-js-concepts) - thewebmasterp
 - [汉语 (Chinese)](https://github.com/stephentian/33-js-concepts) — Re Tian
 - [Português do Brasil (Brazilian Portuguese)](https://github.com/tiagoboeing/33-js-concepts) — Tiago Boeing
 - [한국어 (Korean)](https://github.com/yjs03057/33-js-concepts.git) — Suin Lee
+- ==[한국어 (Korean)](https://github.com/yonggeun/33-js-concepts-in-korean) — yonggeun(현재 저장소)==
 - [Español (Spanish)](https://github.com/adonismendozaperez/33-js-conceptos) — Adonis Mendoza
 - [Türkçe (Turkish)](https://github.com/ilker0/33-js-concepts) — İlker Demir
 - [русский язык (Russian)](https://github.com/gumennii/33-js-concepts) — Mihail Gumennii
@@ -62,9 +67,9 @@ All the translations for this repo will be listed below:
 - [עברית‎ (Hebrew)](https://github.com/rafyzg/33-js-concepts) — Refael Yzgeav
 
 ---
-## <img  align= center width=50px height=50px src="https://media4.giphy.com/media/3hoLIVAJYkz6T0Ichp/giphy.gif?cid=6c09b952m4j3poopinf91rquev6qy4e8avu0bflq1e0vh4gp&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s"> <a id="table-of-contents">Table of Contents</a>
+## <img  align= center width=50px height=50px src="https://media4.giphy.com/media/3hoLIVAJYkz6T0Ichp/giphy.gif?cid=6c09b952m4j3poopinf91rquev6qy4e8avu0bflq1e0vh4gp&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s"> <a id="table-of-contents">목차</a>
 
-1. **[Call Stack](#1-call-stack)**
+==1. **[콜 스택](#1-콜-스택)** 번역 중==
 2. **[Primitive Types](#2-primitive-types)**
 3. **[Value Types and Reference Types](#3-value-types-and-reference-types)**
 4. **[Implicit, Explicit, Nominal, Structuring and Duck Typing](#4-implicit-explicit-nominal-structuring-and-duck-typing)**
@@ -100,23 +105,24 @@ All the translations for this repo will be listed below:
 
 ---
 
-## 1. Call Stack
+## 1. 콜 스택
 
-### Reference
+### 참고 자료
 
 -  [Call Stack — MDN](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
 
-### <img  align= center width=40px height=40px src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
+### <img  align= center width=40px height=40px src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> 글
 
-- [Understanding Javascript Call Stack, Event Loops — Gaurav Pandvia](https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec)
-- [Understanding the JavaScript Call Stack — Charles Freeborn](https://medium.freecodecamp.org/understanding-the-javascript-call-stack-861e41ae61d4)
--  [Javascript: What Is The Execution Context? What Is The Call Stack? — Valentino Gagliardi](https://medium.com/@valentinog/javascript-what-is-the-execution-context-what-is-the-call-stack-bd23c78f10d1)
--  [What is the JS Event Loop and Call Stack? — Jess Telford](https://gist.github.com/jesstelford/9a35d20a2aa044df8bf241e00d7bc2d0)
--  [Understanding Execution Context and Execution Stack in Javascript — Sukhjinder Arora](https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0)
--  [How JavaScript Works Under The Hood: An Overview of JavaScript Engine, Heap and, Call Stack — Bipin Rajbhar](https://dev.to/bipinrajbhar/how-javascript-works-under-the-hood-an-overview-of-javascript-engine-heap-and-call-stack-1j5o)
--  [The JS Call stack Explained in 9 minutes](https://www.youtube.com/watch?v=W8AeMrVtFLY) - Colt Steel (YouTube)
+|한국어|영어|
+|---|---|
+|자바스크립트 콜 스택과 이벤트 루프의 이해 - 가우라브 판드비아|[Understanding Javascript Call Stack, Event Loops — Gaurav Pandvia](https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec)|
+|자바스크립트 콜 스택 이해하기 - 찰스 프리본|[Understanding the JavaScript Call Stack — Charles Freeborn](https://medium.freecodecamp.org/understanding-the-javascript-call-stack-861e41ae61d4)|
+|자바스크립트: 실행 콘텍스트란? 콜 스택이란? - 발렌티노 개그리아르디|[Javascript: What Is The Execution Context? What Is The Call Stack? — Valentino Gagliardi](https://medium.com/@valentinog/javascript-what-is-the-execution-context-what-is-the-call-stack-bd23c78f10d1)|
+|JS 이벤트 루프와 콜 스택이란 무엇일까? - 제스 텔포드|[What is the JS Event Loop and Call Stack? — Jess Telford](https://gist.github.com/jesstelford/9a35d20a2aa044df8bf241e00d7bc2d0)|
+|자바스크립트에서 실행 콘텍스트와 실행 스택 이해하기 - 수크진더 아로라|[Understanding Execution Context and Execution Stack in Javascript — Sukhjinder Arora](https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0)|
+|자바스크립트 내부는 어떻게 작동할까? 자바스크립트 엔진, 힙, 콜 스택 둘러보기 - 비핀 라즈바르|[How JavaScript Works Under The Hood: An Overview of JavaScript Engine, Heap and, Call Stack — Bipin Rajbhar](https://dev.to/bipinrajbhar/how-javascript-works-under-the-hood-an-overview-of-javascript-engine-heap-and-call-stack-1j5o)|
 
-### <img align=center width="40" height="40" src="https://img.icons8.com/dusk/64/video.png" alt="video"/>  Videos
+### <img align=center width="40" height="40" src="https://img.icons8.com/dusk/64/video.png" alt="video"/> 동영상
 
 - [Javascript: the Call Stack explained — Coding Blocks India](https://www.youtube.com/watch?v=w6QGEiQceOM)
 - [The JS Call Stack Explained In 9 Minutes — Colt Steele](https://www.youtube.com/watch?v=W8AeMrVtFLY)
