@@ -28,7 +28,7 @@
 - [汉语 (Chinese)](https://github.com/stephentian/33-js-concepts) — Re Tian
 - [Português do Brasil (Brazilian Portuguese)](https://github.com/tiagoboeing/33-js-concepts) — Tiago Boeing
 - [한국어 (Korean)](https://github.com/yjs03057/33-js-concepts.git) — Suin Lee
-- ==[한국어 (Korean)](https://github.com/yonggeun/33-js-concepts-in-korean) — yonggeun(현재 저장소)==
+- [한국어 (Korean)](https://github.com/yonggeun/33-js-concepts-in-korean) — yonggeun(현재 저장소)
 - [Español (Spanish)](https://github.com/adonismendozaperez/33-js-conceptos) — Adonis Mendoza
 - [Türkçe (Turkish)](https://github.com/ilker0/33-js-concepts) — İlker Demir
 - [русский язык (Russian)](https://github.com/gumennii/33-js-concepts) — Mihail Gumennii
@@ -69,7 +69,7 @@
 ---
 ## <img  align= center width=50px height=50px src="https://media4.giphy.com/media/3hoLIVAJYkz6T0Ichp/giphy.gif?cid=6c09b952m4j3poopinf91rquev6qy4e8avu0bflq1e0vh4gp&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s"> <a id="table-of-contents">목차</a>
 
-==1. **[콜 스택](#1-콜-스택)** 번역 중==
+1. **[콜 스택](#1-콜-스택)** 번역 중
 2. **[Primitive Types](#2-primitive-types)**
 3. **[Value Types and Reference Types](#3-value-types-and-reference-types)**
 4. **[Implicit, Explicit, Nominal, Structuring and Duck Typing](#4-implicit-explicit-nominal-structuring-and-duck-typing)**
