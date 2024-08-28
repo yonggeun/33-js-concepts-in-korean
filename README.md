@@ -3,7 +3,7 @@
   <a href="https://github.com/yonggeun/33-js-concepts-in-korean"><img src="assets/images/logo.png" alt="자바스크립트 개발자가 알아야 할 개념 33개" width=200" /></a>
   <br>
     <br>
-  자바스크립트 개발자가 알아야 할 개념 33가지
+  자바스크립트 개발자가 알아야 할 33가지 개념
   <br><br>
 </h1>
 
